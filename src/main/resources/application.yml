@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+app:
+  google:
+    spreadsheet:
+      id: ${GOOGLE_SPREADSHEET_ID}
+      sheets-names: ${GOOGLE_SPREADSHEET_SHEETS_NAMES}
+      sheets-ids: ${GOOGLE_SPREADSHEET_SHEETS_IDS}
